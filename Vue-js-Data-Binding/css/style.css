@@ -1,0 +1,10 @@
+body{
+	margin-top: 100px;
+	padding: 0px;
+}
+#vue-app{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}

@@ -3,8 +3,7 @@ var vm = new Vue({
 	el: "#vue-app",
 
 	data:{
-		name:"mykkip",
-		job:"front end developer @ cybernox.io",
+		name:"Vuejs Data & Methods",
 	},
 
 	methods:{
