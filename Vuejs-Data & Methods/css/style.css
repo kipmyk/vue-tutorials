@@ -1,0 +1,9 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#vue-app{
+	text-align: center;
+	padding-top: 100px;
+	text-transform: capitalize;
+}
