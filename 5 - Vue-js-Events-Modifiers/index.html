@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue Tutorials | event Modifiers</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app">
+
+		<h1>{{events}}</h1>
+		
+		<button @click.capture="add(1)">Click to add 1 Year</button>
+		<p>{{age}}</p>
+		<button @click="substract(1)">Click to subtract 1 Year</button>
+
+		<a v-bind:href="website" @click.prevent="click()" title="">Vuejs</a>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

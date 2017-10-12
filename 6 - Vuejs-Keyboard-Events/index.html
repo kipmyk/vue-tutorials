@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app">
+		<h1>{{keyboardevent}}</h1>
+		<label>Name:</label>
+		<input type="text" @keyup.enter="logName">
+		<label>Age</label>
+		<input type="text" @keyup.enter="logAge">
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

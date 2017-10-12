@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app">
+		<h1>{{databinding}}</h1>
+
+		<label>Name</label>
+		<input type="text" v-model="name">
+		<br>
+		<br>
+		<span>Name: {{ name }}</span>
+		<br><br>
+		<label>Age</label>
+		<input type="text" v-model="age">
+		<br><br>
+		<span>Age: {{ age }}</span>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
