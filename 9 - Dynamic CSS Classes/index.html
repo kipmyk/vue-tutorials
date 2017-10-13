@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app">
+		<h1>{{cssd}}</h1>
+		<h2>{{ei}}</h2><!-- one {} for an Object-->
+		<!-- <div @click="available=!available" v-bind:class="{available:available}"> 
+			<span>First CSS instances</span>
+		</div> -->
+		<h2>{{eii}}</h2>
+		<button @click="nearby = !nearby">Toggle nearby</button>
+		<button @click="available=!available">Toggle available</button>
+
+		
+		<div v-bind:class="compClasses">
+			<br>
+			<span>Second CSS instances</span>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
