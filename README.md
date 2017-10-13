@@ -1,5 +1,6 @@
 # vue-tutorials
-Vue JS
+
+# Vue jS
 This is a progressive framework for building user interfaces. 
 
 i used them while i was teaching myself Vue js.
@@ -31,3 +32,11 @@ I did my reference using vuejs.org
 # Reference 
 
 	https://vuejs.org
+
+# Note
+
+	You can use the codes used Here anywhere you desir.
+
+# Author
+
+	@mykkip
