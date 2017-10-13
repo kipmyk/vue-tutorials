@@ -35,7 +35,7 @@ I did my reference using vuejs.org
 
 # Note
 
-	You can use the codes used Here anywhere you desir.
+	You can use the codes used Here anywhere you desire.
 
 # Author
 
