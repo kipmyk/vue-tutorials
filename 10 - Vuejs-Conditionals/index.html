@@ -8,19 +8,27 @@
 <body>
 	<div id="vue-app">
 		<h1>{{conditionals}}</h1>
-		<h2>{{vueif}}</h2>
+
 		<button @click="error=!error">Toggle error</button>
 		<button @click="success=!success">Toggle Success</button>
-		
-		<p vi-if="error">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		<!-- using V-if -->
+		<!-- <p v-if="error">
+			There has been an error.
 		</p>
-		<h3>{{vueels}}</h3>
+		<p v-else-if="success">
+			It was Success :)
+		</p> -->
+
+		<!-- Using V-show -->
+
+		<p v-show="error">
+			There has been an error.
+		</p>
+		<p v-show="success">
+			It was Success :)
+		</p>
+
 	</div>
 
 	<script src="js/main.js"></script>

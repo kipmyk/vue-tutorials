@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue Tutorials | Looping with v-for</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app">
+
+		<h1>{{vuefor}}</h1>
+
+		<ul>
+			<li v-for="(character,index) in characters"> {{ index }} - {{ character }}</li>
+		</ul>
+
+		<h1>Mapping an Array to Elements with v-for</h1>
+		<ul>
+			<li v-for="(item, index) in items">{{index}}.{{item.name}} - {{item.age}}</li>
+		</ul>
+
+		<!-- To output using div tag just use the code bellow -->
+		<h1>To output using Template Tag</h1>
+		<template v-for="(item, index) in items">
+			<h3>{{index}}.{{item.name}}</h3>
+			<p>Age:{{item.age}}</p>
+		</template>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
