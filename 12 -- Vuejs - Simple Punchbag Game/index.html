@@ -26,8 +26,8 @@
 
 		<div id="controls">
 			
-			<button>Punch</button>
-			<button>Restart</button>
+			<button  v-show="!ended" @click="punch">Punch</button>
+			<button @click="restart">Restart</button>
 		</div>
 
 		
