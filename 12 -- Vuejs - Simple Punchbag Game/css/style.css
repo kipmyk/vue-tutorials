@@ -11,6 +11,10 @@ p{
 	background: url('../img/bag.png') center no-repeat;
 	background-size: 80%;
 }
+#bug .burst{
+	background: url('../img/bag-burst.png') center no-repeat;
+	background-size: 80%;
+}
 button{
 	border-radius: 10px;
 	padding: 10px;

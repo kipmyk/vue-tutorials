@@ -3,7 +3,7 @@ var vm = new Vue({
 	el: "#vue-app",
 	data:{
 		health: 100,
-		ended:false,
+		ended:true,
 	},
 	methods:{
 		punch: function(){
