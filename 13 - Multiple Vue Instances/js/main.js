@@ -22,7 +22,9 @@ var two = new Vue({
 		title: 'Vue App Two',
 	},
 	methods:{
-
+		changeTitle: function(){
+			one.title = "Title changed";
+		}
 	},
 	computed:{
 		wow: function(){
@@ -31,3 +33,5 @@ var two = new Vue({
 	}
 
 });
+
+two.title = "changed from outside the instance"
