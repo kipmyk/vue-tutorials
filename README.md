@@ -39,4 +39,4 @@ I did my reference using vuejs.org
 
 # Author
 
-	@mykkip
+	@kipmyk
